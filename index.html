@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Disabled Employee Translatation</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" frd href="style.css">
+    </head>
+    <body>
+        <center>
+            <h2 class="btn btn-default">Hand Sign Translator
+                <br>
+                <span>&#9994;</span>
+                <span>&#9995;</span>
+                <span>&#9996;</span>
+                <span>&#128074;</span>
+                <span>&#128077;</span>
+                <span>&#128076;</span>
+            </h2>
+
+            <h4>Show the hand sign to the camera for recognition</h4>
+            <br>
+            <p>Notice: This is not to be used outside of the Workplace</p>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Webcam View</label>
+                <div id="Camera"></div>
+                <br>
+                <button onclick="Shutter()" class="btn btn-info Action">Shutter Image</button>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Result</label>
+                <h5 id="HandGesture_Name"></h5>
+                <h5 id="HandGesture_Image"></h5>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Snapshot</label>
+                <div id="Snapshot"></div>
+                <br>
+                <button onclick="Scan()" class="btn btn-info Action">Identify Gesture</button>
+            </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

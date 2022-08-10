@@ -1,0 +1,25 @@
+body {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/01/28/43/09/1000_F_128430981_PkKnuKjzWUrj7Rc9HlRbp4v5p8nbL9ya.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+#Camera, #Snapshot{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+
+.Action {
+  background-color:deepskyblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
